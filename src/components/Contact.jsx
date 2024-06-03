@@ -64,7 +64,7 @@ const Contact = () => {
     <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] h-[650px] bg-[#151030] p-8 rounded-3xl"
+        className="flex-[0.75] h-[620px] bg-[#151030] p-8 rounded-3xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -112,11 +112,11 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-          <Link to="https://www.linkedin.com/in/sunaim-abdullah-571990244/"
+          {/* <Link to="https://www.linkedin.com/in/sunaim-abdullah-571990244/"
             className="bg-[#0a66c2] mt-3 py-3 px-8 outline-none w-[100%] text-white  shadow-md shadow-primary rounded-xl text-center"
           >
             Follow Me On Linkedin
-          </Link>
+          </Link> */}
         </form>
       </motion.div>
       <motion.div
