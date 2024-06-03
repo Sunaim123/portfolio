@@ -20,7 +20,7 @@ const Hero = () => {
             className={`font-bold large-font text-white`}
            
           >
-            Hi, I'm <span className="text-[#915eff]">Sunaim</span>
+            Hi, I'm <span className="text-[#915eff]">Mike</span>
           </p>
           <p
             className={`font-bold small-font mt-2 text-white-100 `}
